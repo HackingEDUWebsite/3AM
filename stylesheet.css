@@ -1,26 +1,81 @@
-.everything{
-	background-color: #7e7c7c;
-	margin: 3px;
-}
-#navmenu a {
-	text-decoration:none; color: #e3e2e2; 
-}
-#navmenu ul {
-	margin-top: 0; 
-	position: fixed; 
-	position: center;  
-			left: 0; 
-			top: 0;
+
+
+		.everything {
+			background-color: #7e7c7c;
+			margin: 3px;}
+			
+		a:link {
+   			text-decoration: none;}
+		a:visited {
+			text-decoration: none;}
+		a:hover {
+			opacity: 0.5;
+			text-decoration: none;}
+		a:active {
+			text-decoration: none;}
+			
+		div > p1 { 
+			padding-top: -70px;
+    		font-family: 'Sacramento', cursive; font-size: 35px;}
+    		
+		h1 {margin: 0 0;}
+		ul {margin: 0 0;}
+    		
+		#first {
+			width: 100%;
+			padding-top: 250px;
+			padding-bottom: 255px;
+			text-align: center; font-size: 4.3vw;
+			font-size: 50px; 
+			background-image: url("http://www.tezzaron.com/media/teamwork-11082302.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 0 60%;
+			background-size: 100% auto;
+			color: #000000;
+			letter-spacing: 15px;
+			background-size: 100% auto;
+			top: 0; left: 0; right: 0; bottom: 0;}
+			
+			
+		#profile {
+			padding-top: 125px;
+			padding-bottom: 150px;
+			text-align: center;
+			font-size: 35px;
+			background-color: #e3e2e2;
+			color: #606060;}
+			
+		
+		#projects a{color: #424242;}
+		#projects {
+/*			font-family: 'Cinzel Decorative', cursive;*/
+			padding-top: 125px;
+			padding-bottom: 150px;
+			text-align: center;
+			font-size: 35px;
+			background-color: ##b0e7e4;
+			color: #424242;}
+		
+		#resources a{color: #606060;}		
+		#resources {
+/*			font-family: 'Cinzel Decorative', cursive;*/
+			padding-top: 125px;
+			padding-bottom: 150px;
+			text-align: center;
+			font-size: 35px;
+			background-color: #e3e2e2;
+			color: #606060;}
+			
+
+		#navmenu a {text-decoration:none; color: #e3e2e2; }
+		#navmenu ul {margin-top: 0; position: fixed; position: center;  
+			left: 0; top: 0;
 			right: 0; 
-			list-style-type: none; 
-			list-style-image: none; 
-			background-color: #606060;
-			font-family: 'Sacramento', cursive; 
-			text-align: center; 
-			border: solid #e3e2e2;
-		}
-#navmenu li {
-	display: inline; 
-	padding: 5px 80px 5px 80px; 
-	font-size: 25px;
-}
+			list-style-type: none; list-style-image: none; background-color: #606060;
+/*			font-family: 'Sacramento', cursive; */
+            text-align: center; 
+            border: solid #e3e2e2;}
+		#navmenu li {display: inline; padding: 5px 80px 5px 80px; font-size: 25px;}
+		
+
